@@ -197,7 +197,8 @@ export default class AudioSwitchShortcutsPreferences extends ExtensionPreference
 		}
 
 		// Drop:
-		dropTarget.connect("drop", (_drop, value: Adw.SwitchRow, _x, y) => {
+		dropTarget.connect("drop", (_drop, dropped, _x, y) => {
+			const value = dropped as Adw.SwitchRow;
 			const targetRow = group.get_row_at_y(y);
 			const targetIndex = targetRow?.get_index();
 

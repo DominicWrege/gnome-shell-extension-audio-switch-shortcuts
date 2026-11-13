@@ -125,10 +125,10 @@ const ShortcutSettingButton = class extends Gtk.Button {
 	}
 
 	_onKeyPressed(
-		_widget: Gtk.Widget,
+		_controller: Gtk.EventControllerKey,
 		keyval: number,
 		keycode: number,
-		state: number,
+		state: Gdk.ModifierType,
 	) {
 		let mask = state & Gtk.accelerator_get_default_mod_mask();
 		mask &= ~Gdk.ModifierType.LOCK_MASK;
@@ -171,6 +171,7 @@ const ShortcutSettingButton = class extends Gtk.Button {
 		this.shortcut = val;
 		this._label.set_accelerator(this.shortcut);
 		this._gioSettings.set_strv(this._settingsKey, [this.shortcut]);
+		// @ts-expect-error "changed" is a custom signal registered via GObject.registerClass
 		this.emit("changed", this.shortcut);
 	}
 

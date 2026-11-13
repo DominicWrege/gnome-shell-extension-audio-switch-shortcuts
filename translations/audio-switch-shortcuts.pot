@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-18 18:07+0200\n"
+"POT-Creation-Date: 2026-11-13 23:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,48 +79,48 @@ msgstr ""
 msgid "Switch to next audio input device"
 msgstr ""
 
-#: dist/prefs.js:142
+#: dist/prefs.js:143
 msgid "Settings"
 msgstr ""
 
-#: dist/prefs.js:146
+#: dist/prefs.js:147
 msgid "Appearance"
 msgstr ""
 
-#: dist/prefs.js:147
+#: dist/prefs.js:148
 msgid "Configure the appearance of this extension"
 msgstr ""
 
-#: dist/prefs.js:152
+#: dist/prefs.js:153
 msgid "Show Indicator"
 msgstr ""
 
-#: dist/prefs.js:153
+#: dist/prefs.js:154
 msgid "Show a tray icon, to get to settings quicker"
 msgstr ""
 
-#: dist/prefs.js:157
+#: dist/prefs.js:158
 msgid "Show Notifications"
 msgstr ""
 
-#: dist/prefs.js:158
+#: dist/prefs.js:159
 msgid "Display a notification message when you press a shortcut"
 msgstr ""
 
-#: dist/prefs.js:162
+#: dist/prefs.js:163
 msgid "Use Volume OSD for notifications"
 msgstr ""
 
-#: dist/prefs.js:163
+#: dist/prefs.js:164
 msgid ""
 "Instead of the notification area, use the volume on-screen display area when "
 "switching devices."
 msgstr ""
 
-#: dist/prefs.js:168
+#: dist/prefs.js:169
 msgid "Play sound on device change"
 msgstr ""
 
-#: dist/prefs.js:169
+#: dist/prefs.js:170
 msgid "Play an audible alert when switching devices"
 msgstr ""
